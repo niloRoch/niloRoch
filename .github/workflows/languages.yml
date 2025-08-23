@@ -1,0 +1,24 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # roda 1x por semana (domingo à meia-noite UTC)
+  workflow_dispatch:       # permite rodar manualmente pelo Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Stats (languages & stats cards)
+        uses: anuraghazra/github-readme-stats@latest
+
+      - name: Push Stats
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: update GitHub stats"
+          git push
