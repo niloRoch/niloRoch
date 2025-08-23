@@ -154,6 +154,23 @@ current_objectives = {
 
 </details>
 
+<details>
+<summary>🌑 <strong>GitHub Stats</strong> (click to expand)</summary>
+  
+<div align="center">
+
+<!-- GitHub Stats Card -->
+![Nilo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=niloRoch&show_icons=true&theme=tokyonight&hide_border=true)
+
+<!-- Most Used Languages Card -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=niloRoch&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+<br>
+
+</details>
+
 <div align="center">
  
 <a href="https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6" target="_blank">
