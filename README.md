@@ -159,7 +159,6 @@ current_objectives = {
   
 <div align="center">
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=niloRoch&theme=tokyonight)
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niloRoch&theme=tokyonight)
 
 <!-- Most Used Languages Card -->
