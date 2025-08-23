@@ -155,11 +155,9 @@ current_objectives = {
 </details>
 
 <details>
-<summary>🌑 <strong>GitHub Stats</strong> (click to expand)</summary>
+<summary>🌑 <strong>GitHub Languages Stats</strong> (click to expand)</summary>
   
 <div align="center">
-
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niloRoch&theme=tokyonight)
 
 <!-- Most Used Languages Card -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=niloRoch&layout=compact&theme=tokyonight&hide_border=true)
