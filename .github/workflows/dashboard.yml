@@ -1,4 +1,4 @@
-name: Update Dashboard Screenshot
+name: Update Dashboard GIF
 
 on:
   schedule:
@@ -21,19 +21,24 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Playwright (Python)
+      - name: Install dependencies (Playwright + Pillow)
         run: |
           pip install --upgrade pip
-          pip install playwright
+          pip install playwright pillow
           python -m playwright install --with-deps chromium
 
-      - name: Take dashboard screenshot
+      - name: Generate dashboard GIF
         run: python scripts/screenshot_dashboard.py
+
+      - name: Optimize GIF (optional, reduce size)
+        run: |
+          sudo apt-get update && sudo apt-get install -y gifsicle
+          gifsicle -O3 assets/dashboard.gif -o assets/dashboard.gif
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/dashboard.png
-          git commit -m "chore: update dashboard screenshot [skip ci]" || echo "No changes to commit"
+          git add assets/dashboard.gif
+          git commit -m "chore: update dashboard GIF [skip ci]" || echo "No changes to commit"
           git push
