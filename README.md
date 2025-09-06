@@ -174,7 +174,8 @@ current_objectives = {
 <div align="center">
   
 [![🔴 LIVE DASHBOARD](https://img.shields.io/badge/🔴%20LIVE-Dashboard-purple?style=for-the-badge)](https://niloRoch.github.io/dashboard-live)
-
+<br>
+![Dashboard](https://raw.githubusercontent.com/niloRoch/niloRoch/main/assets/dashboard.png)
 
 </details>
 
