@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies (Playwright + Pillow)
         run: |
           pip install --upgrade pip
-          pip install playwright pillow
+          pip install playwright pillow imageio
           python -m playwright install --with-deps chromium
 
       - name: Generate dashboard GIF
