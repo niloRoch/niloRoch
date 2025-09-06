@@ -168,12 +168,32 @@ current_objectives = {
 
 </details>
 
+<details>
+<summary>🌑 <strong>Dashboard Status | Real-time Systems </strong> (click to expand)</summary>
+
 <div align="center">
- 
-<a href="https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6" target="_blank">
-<img src="https://github.com/niloRoch/datasets/blob/main/assets/playlist-cover.png" alt="🎧 Click to listen to my playlist" width="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(139, 92, 246, 0.3); cursor: pointer;"/>
-</a>
+  
+[![🔴 LIVE DASHBOARD](https://img.shields.io/badge/🔴%20LIVE-Dashboard-purple?style=for-the-badge)](https://niloRoch.github.io/dashboard-live)
+
+
+</details>
+
+<div align="center">
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="150" alt="Music GIF" />
+</p>
+
+<p align="center">
+  🎧 <a href="https://open.spotify.com/user/2166779894" target="_blank"><strong>My Playlists</strong></a> 
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/user/2166779894" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Badge" />
+  </a>
+</p> 
 </div>
+
 <div align="center">  
 
 ╔════════════════════════════════════════════════════════════╗
