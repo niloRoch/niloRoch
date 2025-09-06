@@ -42,7 +42,7 @@ def run():
         browser.close()
 
     # Monta GIF
-    imageio.mimsave(OUTPUT, frames, duration=0.5, loop=0)
+    imageio.mimsave(OUTPUT, frames, duration=0.2, loop=0)
 
     # Limpa frames temporários
     for f in TEMP_DIR.glob("*.png"):
