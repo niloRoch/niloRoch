@@ -180,9 +180,9 @@ current_objectives = {
 
 <div align="center">
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="150" alt="Music GIF" />
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="75" alt="Music GIF" />
 </p>
-
+  
 <p align="center">
   🎧 <a href="https://open.spotify.com/user/2166779894" target="_blank"><strong>My Playlists</strong></a> 
 </p>
