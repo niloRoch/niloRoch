@@ -1,0 +1,39 @@
+name: Update Dashboard Screenshot
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # roda TODO começo de hora (em UTC)
+  workflow_dispatch:       # permite rodar manualmente pela aba "Actions"
+
+permissions:
+  contents: write          # necessário para commitar a imagem atualizada
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Playwright (Python)
+        run: |
+          pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Take dashboard screenshot
+        run: python scripts/screenshot_dashboard.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/dashboard.png
+          git commit -m "chore: update dashboard screenshot [skip ci]" || echo "No changes to commit"
+          git push
