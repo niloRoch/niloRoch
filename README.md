@@ -3,7 +3,7 @@
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8B5CF6&background=00000000&center=true&vCenter=true&width=600&lines=Software+Engineer+%7C+Data+Analyst;QA+Tester+%7C+Python+Developer+%7C+Ag+Engineer)](https://git.io/typing-svg)
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=666666&background=00000000&center=true&vCenter=true&width=500&lines=Welcome+to+the+Dark+Side...;Caffeine+•+Music+•+Code;+Fortaleza%2C+CE%2C+Brazil;Code+in+the+Shadows)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=666666&background=00000000&center=true&vCenter=true&width=500&lines=Welcome+to+the+Dark+Side...;Caffeine+•+Music+•+Code;+Fortaleza%2C+CE%2C+Brazil)](https://git.io/typing-svg)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 
@@ -68,8 +68,7 @@ class NiloRocha:
     def __init__(self):
         self.background = ["Agricultural Engineering", "Software Engineering", "Philosophy"]
         self.current_focus = ["Data Science", "QA Testing", "Python Automation"]
-        self.philosophy = "It's not enough to analyze the world. We must transform it."
-        self.continuous_learning = "Always exploring new technological frontiers"
+        self.philosophy = "Always exploring new technological frontiers"
     
     def transform_data_to_insights(self):
         return "Connecting dots between complex data and intelligent solutions"
